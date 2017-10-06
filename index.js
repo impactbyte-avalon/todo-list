@@ -5,11 +5,11 @@ function addList(hour, activity) {
     hour: hour,
     activity: activity
   });
-
-  console.log(lists);
 }
 
-addList(1, "Belajar");
+console.log(lists);
+
+addList(3, "Makan");
 
 console.log(lists);
 
@@ -19,7 +19,7 @@ function removeList(index) {
 
 console.log(lists);
 
-addList(2, "Makan");
+addList(4, "belajar");
 
 console.log(lists);
 
